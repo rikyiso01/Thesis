@@ -1,6 +1,3 @@
-\chapter{Introduction}
-\label{sec:introduction}
-
 This is a template for the Computer Science Master Theses at \ac{DIBRIS},
 University of Genoa. It uses the \xspace{\LaTeX} class \texttt{masterthesis.cls} by
 Davide Ancona. We will use this template to discuss what is generally expected in the

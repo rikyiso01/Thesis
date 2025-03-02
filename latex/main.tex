@@ -10,41 +10,39 @@
 % by default, we use the biblatex package to manage the bibliography
 % if you prefer to use bibtex, comment the following line and uncomment the
 % relevant lines at the end of the document
-\addbibresource{bib.bib}
+\addbibresource{$bibliography$}
 
-\input{acronyms}
+$for(acronyms/pairs)$
+
+\acrodef{$it.key$}{$it.value$}
+
+$endfor$
 
 \begin{document}
 
-\title{Template for Master Theses at DIBRIS}
+\title{$title$}
 
-\author{Matteo Dell'Amico}
+\author{$author$}
 
-\advisor{Advisor Name}
+\advisor{$advisor$}
 
-\examiner{Examiner Name}
+\examiner{$examiner$}
 
 \maketitle
 
 \begin{abstract}
-This is a template for the Master Thesis in Computer Science at the University of Genoa.
-
-This document doubles as a guide for how to structure and write it. Please read this advice carefully before replacing it with your material.
+$abstract$
 \end{abstract}
 
 \tableofcontents
 
-\include{introduction}
+$for(chapters)$
 
-\include{background}
+\chapter{$it$}
+\label{sec:$it/lowercase$}
+\include{$it$.tex}
 
-\include{related}
-
-\include{method}
-
-\include{results}
-
-\include{conclusion}
+$endfor$
 
 % Bibliography using biber; comment this and uncomment the following lines to use bibtex instead
 \printbibliography

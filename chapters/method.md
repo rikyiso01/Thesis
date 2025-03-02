@@ -1,5 +1,3 @@
-\chapter{Methodology}\label{sec:method}
-
 This chapter describes the core of your work: the methodology you used to solve the problem
 you described in the Introduction. It is quite likely to have a different name (e.g., the
 name of the tool you wrote), and/or to be split into multiple chapters. It will likely be quite

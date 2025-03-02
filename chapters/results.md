@@ -1,6 +1,3 @@
-\chapter{Results}
-\label{sec:results}
-
 Here you will present the results of your work. Your skeptical reader is now asking themself
 ``is this working?''. You will show here to what extent it does. Be honest about the limitations:
 if your system doesn't work in some cases, you should say so (and explain where and why, if you

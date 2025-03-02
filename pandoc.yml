@@ -1,0 +1,6 @@
+input-files:
+  - meta.yml
+from: markdown
+to: latex
+standalone: true
+template: latex/main.tex

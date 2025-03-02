@@ -1,6 +1,3 @@
-\chapter{Conclusion}
-\label{sec:conclusion}
-
 You are finally done! Here you will summarize for the reader what you have taught them through
 the document, and what are the main takeaways of your work you would like them to remember.
 

@@ -1,6 +1,3 @@
-\chapter{Background}
-\label{sec:background}
-
 This chapter provides the necessary background information to understand the content of your thesis.
 The goal is to make your thesis \emph{self-contained}: the reader, who you can assume will be
 a fellow Computer Science student, should be able to understand your work without having to refer

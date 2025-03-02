@@ -1,6 +1,3 @@
-\chapter{Related Work}
-\label{sec:related}
-
 This chapter is dedicated to the work that has been done by others in the field of your thesis.
 Don't write a mere list of papers with a summary of each. Instead, the goal is to give a picture
 of how your work is situated in the context of the work of others. In this case, you should

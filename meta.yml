@@ -1,0 +1,21 @@
+---
+title: Automated Android application exploration
+author: Riccardo Isola
+advisor: Matteo Dell'Amico
+examiner: Marina Ribaudo
+year: 2025
+month: October
+bibliography: bib.bib
+chapters:
+  - introduction
+  - background
+  - related
+  - method
+  - results
+  - conclusion
+abstract: |
+  The project aims to leverage Multimodal Large Language Models (MLLMs) to enhance code exploration of Android applications by enabling intelligent interaction with their Graphical User Interface (GUI). Traditional static analysis and manual code reviews can be inefficient and time-consuming, particularly in large, complex applications. This approach integrates MLLMs with computer vision and natural language processing to analyze the app’s GUI dynamically, extracting UI components, inferring their functionality, and linking them to corresponding code segments. By interacting with the app in real-time – simulating user actions such as button presses and text inputs – the model can generate structured insights about code behavior, identify security vulnerabilities, and assist developers in debugging. 
+acronyms:
+  DIBRIS: \textit{dipartimento di informatica, bioingegneria, robotica e ingegneria dei sistemi}
+  LLM: large language model
+...
